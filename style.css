@@ -150,3 +150,32 @@ button {
     font-weight: 600;
     font-size: 24px;
 }
+
+.prompt {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #E5E7EB;
+    margin: 120px;
+    padding: 50px 20px;
+}
+
+.prompt button {
+    border: 2px solid #fff;
+}
+
+.prompt div div {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    font-size: 18px;
+}
