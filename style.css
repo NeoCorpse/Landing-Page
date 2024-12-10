@@ -14,10 +14,10 @@ body {
 header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     color: #F9FAF8;
     background-color: #1F2937;
-    padding: 17px;
+    padding: 17px 140px;
 }
 
 .logo {
@@ -34,4 +34,53 @@ li {
     list-style-type: none;
     font-size: 18px;
     font-weight: 300;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    padding: 100px 40px 170px;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: 900;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 300;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 0px;
+    padding: 8px 18px;
+    border-radius: 8px;
+    width: 120px;
+    font-weight: 600;
+    font-size: 100%;
+}
+
+.placeholder {
+    color: #d4d6d1;
+    background-color: #526074;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
